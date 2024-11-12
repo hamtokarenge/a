@@ -8,7 +8,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "python3 /workspaces/new/hydra.py",
+    "postStartCommand": "python3 /workspaces/a/hydra.py",
     "customizations": {
         "vscode": {
             "settings": {
